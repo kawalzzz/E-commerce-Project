@@ -155,6 +155,14 @@ header {
   cursor: pointer;
 }
 
+.items-container {
+   width: 80%;
+  margin: 50px 10%;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-evenly;
+}
+
 /*Footer Section*/
 .footer_container {
   padding: 30px 0px 40px 0px;
@@ -181,4 +189,26 @@ header {
   color: #94969f;
   text-align: end;
   padding: 15px;
+}
+.bag-item-count {
+    background-color: #f16565;
+    white-space: nowrap;
+    text-align: center;
+    line-height: 18px;
+    padding: 0 6px;
+    height: 18px;
+    position: relative;
+    border-radius: 50%;
+    font-size: 12px;
+    color: #fff;
+    left: 13px;
+    top: -44px;
+    font-weight: 700;
+    cursor: pointer;
+}
+.action_container {
+    text-decoration: none;
+}
+a.action_container:link {
+    color:black;
 }
